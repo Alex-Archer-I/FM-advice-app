@@ -1,0 +1,26 @@
+:root {
+    --light-cyan: hsl(193, 38%, 86%);
+    --neon-green: hsl(150, 100%, 66%);
+
+    --red: hsl(9, 69%, 66%);
+    --grayish-blue: hsl(217, 19%, 38%);
+    --dark-grayish-blue: hsl(217, 19%, 24%);
+    --dark-blue: hsl(218, 23%, 16%);
+
+    --font-size-advice: 1.75rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+
+body {
+    background-color: var(--dark-blue);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

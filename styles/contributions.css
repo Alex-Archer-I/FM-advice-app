@@ -1,0 +1,16 @@
+.contributions {
+    position: absolute;
+    bottom: 1rem;
+    background-color: var(--dark-grayish-blue);
+    color: var(--light-cyan);
+    font-weight: 800;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contributions_link {
+    color: var(--neon-green);
+    text-decoration: none;
+    outline-color: var(--neon-green);
+}
